@@ -69,8 +69,7 @@ export default function UserGenerator() {
                             <div className="user-info">
                                 <strong>{user.name.first} {user.name.last}</strong>
                                 <p>{user.email}</p>
-                                <p>{user.dob.age >= 50 ? "senior" : "jovem talento"}</p>
-                                
+                                <p>{user.dob.age >= 50 ? "senior" : "jovem talent0"}</p>
                                 <span>📍 {user.location.city}, {user.location.country}</span>
                             </div>
                         </div>

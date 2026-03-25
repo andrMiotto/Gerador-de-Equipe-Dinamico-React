@@ -44,7 +44,7 @@ export default function UserGenerator() {
                     setTalentos(talentos + 5)
 
                 }}>Apenas Mulheres</button>
-
+               
                 <button
                     onClick={() => {
                         fetchUsers();
@@ -69,8 +69,7 @@ export default function UserGenerator() {
                             <div className="user-info">
                                 <strong>{user.name.first} {user.name.last}</strong>
                                 <p>{user.email}</p>
-                                <p>{user.dob.age >= 50 ? "senior" : "jovem talento"}</p>
-                                
+                                <p>{user.dob.age >= 50 ? }</p>
                                 <span>📍 {user.location.city}, {user.location.country}</span>
                             </div>
                         </div>
