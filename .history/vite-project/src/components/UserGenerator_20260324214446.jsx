@@ -36,13 +36,10 @@ export default function UserGenerator() {
 
                 <button onClick={() => {
                     handleFilter('male');
-                    setTalentos(talentos + 5)
-
+                    
                 }}>Apenas Homens</button>
                 <button onClick={() => {
-                    handleFilter('female');
-                    setTalentos(talentos + 5)
-
+                    handleFilter('female')
                 }}>Apenas Mulheres</button>
                
                 <button
