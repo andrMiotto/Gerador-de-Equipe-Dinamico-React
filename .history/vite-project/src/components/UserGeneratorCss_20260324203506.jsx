@@ -1,0 +1,15 @@
+.user-container { max-width: 600px; margin: 2rem auto; font-family: 'Segoe UI', sans-serif; }
+.user-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 1rem; }
+.user-grid { display: grid; gap: 1rem; margin-top: 1.5rem; }
+.user-card { 
+  display: flex; align-items: center; gap: 1rem; padding: 1rem; 
+  background: #fff; border: 1px solid #e1e4e8; border-radius: 12px;
+  transition: transform 0.2s;
+}
+.user-card:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.user-card img { border-radius: 50%; border: 3px solid #0070f3; width: 60px; height: 60px; }
+.user-info strong { font-size: 1.1rem; color: #1a1a1a; }
+.user-info p { margin: 4px 0; color: #666; font-size: 0.9rem; }
+.user-info span { font-size: 0.8rem; color: #999; }
+.refresh-button { background: #0070f3; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; }
+.refresh-button:disabled { background: #ccc; }
